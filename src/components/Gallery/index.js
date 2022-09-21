@@ -1,5 +1,5 @@
 import React from 'react';
-import PhotoList from '../Photolist';
+import PhotoList from '../PhotoList';
 import { capitalizeFirstLetter } from '../../utils/helpers';
 
 function Gallery(props) {
@@ -12,5 +12,4 @@ function Gallery(props) {
     </section>
   );
 }
-
 export default Gallery;
